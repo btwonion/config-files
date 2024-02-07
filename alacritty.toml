@@ -9,7 +9,7 @@ padding = { x = 3, y = 3 }
 hide_when_typing = false
 
 [cursor.style]
-shape = "Block"
+shape = "Beam"
 blinking = "Off"
 
 [bell]
