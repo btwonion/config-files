@@ -1,0 +1,18 @@
+live_config_reload = true
+
+[window]
+decorations = "Full"
+startup_mode = "Windowed"
+padding = { x = 3, y = 3 }
+
+[mouse]
+hide_when_typing = false
+
+[cursor.style]
+shape = "Block"
+blinking = "Off"
+
+[bell]
+animation = "EaseOutExpo"
+color = "0xffffff"
+duration = 0

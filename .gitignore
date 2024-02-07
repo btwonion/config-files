@@ -1,0 +1,8 @@
+*
+!.gitignore
+
+!*/
+
+!helix/**
+!alacritty.toml
+!starship.toml

@@ -1,0 +1,69 @@
+# Inserts a blank line between shell prompts
+add_newline = true
+# Change command timeout from 500 to 1000 ms
+command_timeout = 1000
+# Change the default prompt format
+format = """$env_var $all"""
+
+# Change the default prompt characters
+[character]
+success_symbol = "[ ➜ ](bold #00f7b5)"
+error_symbol = "[ ➜ ](bold #00f7b5)"
+
+# Shows an icon that should be included by zshrc script based on the distribution or os
+[env_var.STARSHIP_DISTRO]
+format = '[$env_value](white)'
+variable = "STARSHIP_DISTRO"
+disabled = false
+
+# Shows the username
+[username]
+style_user = "#f7ad00"
+style_root = "red"
+format = "[$user]($style) "
+disabled = false
+show_always = true
+
+[directory]
+truncation_length = 1
+truncation_symbol = "../"
+home_symbol = "~"
+style = "#8cf700"
+read_only_style = "197"
+read_only = "  "
+format = "at [$path]($style)[$read_only]($read_only_style) "
+
+[kubernetes]
+format = 'via [ﴱ $context\($namespace\)](bold purple) '
+disabled = false
+
+# (deactivated because of no space left)
+[terraform]
+format = "via [ terraform $version]($style) 壟 [$workspace]($style) "
+disabled = true
+
+[vagrant]
+format = "via [ vagrant $version]($style) "
+disabled = true
+
+[docker_context]
+format = "via [ $context](bold blue) "
+disabled = true
+
+[helm]
+format = "via [ $version](bold purple) "
+disabled = true
+
+[python]
+symbol = " "
+python_binary = "python3"
+disabled = true
+format = 'via [${symbol}${pyenv_prefix}(${version} )(\($virtualenv\) )]($style)'
+
+[nodejs]
+format = "via [ $version](bold green) "
+disabled = true
+
+[ruby]
+format = "via [ $version]($style) "
+disabled = true
