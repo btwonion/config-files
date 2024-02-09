@@ -6,3 +6,8 @@
 !helix/**
 !alacritty.toml
 !starship.toml
+
+!JetBrains/IntelliJIdea2023.3/disabled_plugins.txt
+!JetBrains/IntelliJIdea2023.3/options/editor-font.xml
+
+com.modrinth.theseus/**
