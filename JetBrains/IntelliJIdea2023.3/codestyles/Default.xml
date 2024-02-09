@@ -1,0 +1,53 @@
+<code_scheme name="Default" version="173">
+  <JavaCodeStyleSettings>
+    <option name="ANNOTATION_PARAMETER_WRAP" value="5" />
+    <option name="NEW_LINE_AFTER_LPAREN_IN_ANNOTATION" value="true" />
+    <option name="RPAREN_ON_NEW_LINE_IN_ANNOTATION" value="true" />
+  </JavaCodeStyleSettings>
+  <JetCodeStyleSettings>
+    <option name="SPACE_AROUND_RANGE" value="true" />
+    <option name="LINE_BREAK_AFTER_MULTILINE_WHEN_ENTRY" value="false" />
+    <option name="WRAP_EXPRESSION_BODY_FUNCTIONS" value="1" />
+    <option name="WRAP_ELVIS_EXPRESSIONS" value="2" />
+  </JetCodeStyleSettings>
+  <codeStyleSettings language="JAVA">
+    <option name="KEEP_LINE_BREAKS" value="false" />
+    <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
+    <option name="SPACE_WITHIN_ARRAY_INITIALIZER_BRACES" value="true" />
+    <option name="SPACE_BEFORE_ARRAY_INITIALIZER_LBRACE" value="true" />
+    <option name="CALL_PARAMETERS_WRAP" value="5" />
+    <option name="CALL_PARAMETERS_LPAREN_ON_NEXT_LINE" value="true" />
+    <option name="CALL_PARAMETERS_RPAREN_ON_NEXT_LINE" value="true" />
+    <option name="METHOD_PARAMETERS_WRAP" value="5" />
+    <option name="METHOD_PARAMETERS_LPAREN_ON_NEXT_LINE" value="true" />
+    <option name="METHOD_PARAMETERS_RPAREN_ON_NEXT_LINE" value="true" />
+    <option name="METHOD_CALL_CHAIN_WRAP" value="2" />
+    <option name="BINARY_OPERATION_WRAP" value="1" />
+    <option name="PARAMETER_ANNOTATION_WRAP" value="2" />
+    <option name="VARIABLE_ANNOTATION_WRAP" value="2" />
+    <option name="ENUM_CONSTANTS_WRAP" value="2" />
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="4" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="kotlin">
+    <option name="KEEP_LINE_BREAKS" value="false" />
+    <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
+    <option name="KEEP_BLANK_LINES_IN_DECLARATIONS" value="1" />
+    <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
+    <option name="KEEP_BLANK_LINES_BEFORE_RBRACE" value="0" />
+    <option name="CALL_PARAMETERS_WRAP" value="5" />
+    <option name="CALL_PARAMETERS_LPAREN_ON_NEXT_LINE" value="true" />
+    <option name="CALL_PARAMETERS_RPAREN_ON_NEXT_LINE" value="true" />
+    <option name="METHOD_PARAMETERS_WRAP" value="5" />
+    <option name="METHOD_PARAMETERS_LPAREN_ON_NEXT_LINE" value="true" />
+    <option name="METHOD_PARAMETERS_RPAREN_ON_NEXT_LINE" value="true" />
+    <option name="METHOD_CALL_CHAIN_WRAP" value="5" />
+    <option name="PARAMETER_ANNOTATION_WRAP" value="2" />
+    <option name="VARIABLE_ANNOTATION_WRAP" value="2" />
+    <option name="ENUM_CONSTANTS_WRAP" value="2" />
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="4" />
+    </indentOptions>
+  </codeStyleSettings>
+</code_scheme>
