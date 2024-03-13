@@ -1,8 +1,7 @@
 live_config_reload = true
 
 [window]
-decorations = "Full"
-startup_mode = "Windowed"
+startup_mode = "Fullscreen"
 padding = { x = 3, y = 3 }
 
 [mouse]
@@ -16,3 +15,7 @@ blinking = "Off"
 animation = "EaseOutExpo"
 color = "0xffffff"
 duration = 0
+
+[colors.primary]
+foreground = "#ecf9fb"
+background = "#101013"
