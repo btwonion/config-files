@@ -4,6 +4,7 @@
 !*/
 
 !helix/**
+helix/runtime
 !alacritty.toml
 !starship.toml
 
