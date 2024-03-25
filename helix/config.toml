@@ -1,8 +1,9 @@
-theme = "onedark"
+theme = "base16_transparent"
 
 [editor]
 line-number = "relative"
 mouse = true
+true-color = true
 
 [editor.cursor-shape]
 insert = "bar"
@@ -11,3 +12,6 @@ select = "underline"
 
 [editor.file-picker]
 hidden = false
+
+[editor.lsp]
+display-messages = true
