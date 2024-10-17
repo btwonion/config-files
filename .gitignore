@@ -10,10 +10,3 @@ helix/runtime
 !kitty/kitty.conf
 !kitty/kitty.conf.bak
 !kitty/current-theme.conf
-
-!JetBrains/IntelliJIdea2023.3/disabled_plugins.txt
-!JetBrains/IntelliJIdea2023.3/options/editor-font.xml
-!JetBrains/IntelliJIdea2023.3/codestyles/Default.xml
-!JetBrains/IntelliJIdea2023.3/options/ui.lnf.xml
-
-com.modrinth.theseus/**
