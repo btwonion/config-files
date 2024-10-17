@@ -5,8 +5,11 @@
 
 !helix/**
 helix/runtime
-!alacritty.toml
 !starship.toml
+!fastfetch/config.jsonc
+!kitty/kitty.conf
+!kitty/kitty.conf.bak
+!kitty/current-theme.conf
 
 !JetBrains/IntelliJIdea2023.3/disabled_plugins.txt
 !JetBrains/IntelliJIdea2023.3/options/editor-font.xml

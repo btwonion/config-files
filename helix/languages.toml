@@ -1,7 +1,14 @@
 [[language]]
 name = "typst"
+language-servers = ["typst-lsp", "typst-grammar"] 
 formatter = { command = "typstfmt", args = ["--output", "-"] }
 auto-format = true
 
 [language-server.typst-lsp.config]
 exportPdf = "onType"
+
+[[language]]
+name = "markdown"
+language-servers = ["marksman"]
+formatter = { command = "dprint", args = ["fmt", "--stdin", "md"]}
+indent = { tab-width = 2, unit = "  " }
