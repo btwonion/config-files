@@ -10,3 +10,4 @@ helix/runtime
 !kitty/kitty.conf
 !kitty/kitty.conf.bak
 !kitty/current-theme.conf
+!gitui/theme.ron
